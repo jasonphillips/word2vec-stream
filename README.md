@@ -6,7 +6,7 @@ Process your massive **word2vec** binary model file as a readable stream of reco
 Word2vec models are typically distributed as massive binary files (for instance, the [standard GoogleNews set](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) is several gigs once unzipped).
 In some cases, you may wish to process these models and persist all or part of their contents to a database or other source, without hitting the considerable memory usage needed to read it all into memory at once. 
 
-This tiny library is merely a handy function that parses the binary format and offers a readable stream of objects containing the word and the value (array of vectors).
+This tiny library is merely a handy function that parses the binary format and offers a readable stream of objects containing the word and the value (vector array).
 
 ## Usage
 
@@ -51,7 +51,7 @@ A single word object looks like this:
      -0.16270646452903748,
      -0.038575947284698486,
      0.12756797671318054,
-     // ... as many vectors as dimensions here
+     // ... as many floats as vector dimensions here
   }
 }
 ```
