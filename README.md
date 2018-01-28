@@ -63,5 +63,11 @@ Or examine and run the demo.js file for a quick example (dumping records to cons
 $ node demo.js
 ```
 
+## Compatibility
+
+This library targets node v8, though may work a little further back; some necessary elements of the stream.Readable API may not be supported in older versions. 
+
+## Acknowledgements
+
 Thanks to [node-word2vec](https://github.com/Planeshifter/node-word2vec) for illustrating the basic syntax of parsing the binary format in node.
 
