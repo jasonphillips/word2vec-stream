@@ -1,6 +1,6 @@
 {
   "name": "word2vec-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "processes word2vec binary files as a readable stream of records",
   "main": "index.js",
   "repository": "https://github.com/jasonphillips/word2vec-stream",
