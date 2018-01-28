@@ -1,3 +1,7 @@
+
+[![npm version](https://badge.fury.io/js/word2vec-stream.svg)](https://badge.fury.io/js/word2vec-stream) [![Build Status](https://travis-ci.org/jasonphillips/word2vec-stream.svg?branch=master)](https://travis-ci.org/jasonphillips/word2vec-stream)
+
+
 # word2vec-stream
 Process your massive **word2vec** binary model file as a readable stream of records.
 
